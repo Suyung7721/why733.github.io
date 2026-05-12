@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-05-12T11:53:39+00:00</updated><id>/feed.xml</id><title type="html">why</title><subtitle>hello world!</subtitle><entry><title type="html">第一篇博客：Markdown 语法大测试</title><link href="/%E6%97%A5%E5%B8%B8/%E6%B5%8B%E8%AF%95/2026/05/12/my-first-post.html" rel="alternate" type="text/html" title="第一篇博客：Markdown 语法大测试" /><published>2026-05-12T08:30:00+00:00</published><updated>2026-05-12T08:30:00+00:00</updated><id>/%E6%97%A5%E5%B8%B8/%E6%B5%8B%E8%AF%95/2026/05/12/my-first-post</id><content type="html" xml:base="/%E6%97%A5%E5%B8%B8/%E6%B5%8B%E8%AF%95/2026/05/12/my-first-post.html"><![CDATA[<h1 id="欢迎来到我的新博客">欢迎来到我的新博客！</h1>
+
+<p>这篇博客主要用来测试各项基础语法是否能在页面上正常渲染，顺便完成一下实验任务。</p>
+
+<h2 id="1-插入图片测试">1. 插入图片测试</h2>
+<p>下面随便放一张测试用的占位图：
+<img src="https://picsum.photos/400/200" alt="测试图片" /></p>
+
+<h2 id="2-插入音频测试">2. 插入音频测试</h2>
+<p>用 HTML5 的标签嵌入一段网页音频：</p>
+<audio controls="">
+  <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
+  您的浏览器不支持音频元素。
+</audio>
+
+<h2 id="3-表格与特殊符号测试">3. 表格与特殊符号测试</h2>
+<p>下面是一个简单的表格，里面包含了一些特殊符号：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">测试项目</th>
+      <th style="text-align: left">状态</th>
+      <th style="text-align: left">备注说明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">代码运行</td>
+      <td style="text-align: left">✔️</td>
+      <td style="text-align: left">正常</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">网页加载</td>
+      <td style="text-align: left">⏳</td>
+      <td style="text-align: left">测试中</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">版权符号</td>
+      <td style="text-align: left">© 2026</td>
+      <td style="text-align: left">仅供学习</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="4-公式测试">4. 公式测试</h2>
+<p>这是著名的勾股定理公式（注意：这通常需要你后续在主题里装数学公式插件才能完美显示出排版，但现在写上去也能作为特殊符号展示）：</p>
+
+\[a^2 + b^2 = c^2\]]]></content><author><name></name></author><category term="日常" /><category term="测试" /><category term="Markdown" /><category term="实验" /><summary type="html"><![CDATA[欢迎来到我的新博客！]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2026/05/12/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2026-05-12T07:23:47+00:00</published><updated>2026-05-12T07:23:47+00:00</updated><id>/jekyll/update/2026/05/12/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2026/05/12/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
