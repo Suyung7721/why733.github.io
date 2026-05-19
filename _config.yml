@@ -1,41 +1,63 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+title: "味纪"
+subtitle: "记录每一道用心做的菜"
+description: "新加坡美食爱好者 | 家常菜教程 · 餐厅评测 · 烹饪日记"
+url: "https://why733.github.io"
+baseurl: ""
+repository: "why733/why733.github.io"
+locale: "zh-CN"
+minimal_mistakes_skin: "sunrise"     # 推荐温暖橙色系，可换成 "mint" 或 "default"
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: why
-email: 2312852089@qq.com
-description: >- # this means to ignore newlines until "baseurl:"
-  hello world!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# Logo 和头像（先用占位，之后你可以换成自己的）
+logo: "/assets/images/logo.png"
+avatar: "/assets/images/avatar.jpg"
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+# 头部大图（推荐放一张高分辨率美食图）
+header:
+  image: "/assets/images/header-food.jpg"
+  overlay_color: "#2c2c2c"
+  overlay_filter: 0.3
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# 搜索和日期
+search: true
+show_date: true
+read_time: true
+
+# 作者信息
+author:
+  name: "Lei"
+  bio: "新加坡吃货 · 喜欢把每一道菜都认真记录下来"
+  avatar: "/assets/images/avatar.jpg"
+  location: "Singapore"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/why733"
+
+# 导航栏
+navigation:
+  - title: 首页
+    url: /
+  - title: 所有文章
+    url: /posts/
+  - title: 教程
+    url: /categories/教程/
+  - title: 评测
+    url: /categories/评测/
+  - title: 关于我
+    url: /about/
+
+# 默认文章设置
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      show_date: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      header:
+        teaser: true
